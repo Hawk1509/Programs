@@ -1,5 +1,5 @@
 import java.util.*;
-class AreaCalc
+class Area
 {
 	double a;
 	void area(int l,int b)
@@ -18,7 +18,7 @@ class AreaCalc
 		System.out.println("Area of the circle is "+ a);
 	}
 }
-class Area
+class aream
 {
 	public static void main(String arg[])
 	{

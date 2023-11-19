@@ -35,7 +35,6 @@ class Employee
 		man.adr = "AMV M416 UZI MRK IV";
 		man.sal = 12345;
 		man.department = "WORKER";
-				System.out.println("\n--------------------------------------------------------------------------------------------------------------------------------------------------\n");
 		System.out.println("\nOFFICER DETAILS\n");
 		
 		System.out.println("OFFICER NAME: "+of.name);
@@ -45,8 +44,6 @@ class Employee
 		System.out.println("OFFICER SALARY: "+of.sal);
 		System.out.println("OFFICER SPECIALIZATION: "+of.specialization);
 		
-		
-		System.out.println("\n-------------------------------------------------------------------------------------------------------------------------------------------------\n");
 		System.out.println("\nMANAGER DETAILS\n");
 		System.out.println("MANAGER NAME: "+man.name);
 		System.out.println("MANAGER AGE: "+man.age);
@@ -56,6 +53,25 @@ class Employee
 		System.out.println("MANAGER SPECIALIZATION: " +man.department);
 	}
 }
-		
+/*
+OUTPUT
+OFFICER DETAILS
+
+OFFICER NAME: LUKE
+OFFICER AGE: 15
+OFFICER PHONE NUMBER: 8678-45645-1029
+OFFICER ADDRESS: DARTH
+OFFICER SALARY: 12345
+OFFICER SPECIALIZATION: IT
+
+MANAGER DETAILS
+
+MANAGER NAME: DARTH VADER
+MANAGER AGE: 60
+MANAGER PHONE NUMBER: 98765-456466-4546
+MANAGER ADDRESS: AMV M416 UZI MRK IV
+MANAGER SALARY: 12345
+MANAGER SPECIALIZATION: WORKER
+*/	
 		
 		

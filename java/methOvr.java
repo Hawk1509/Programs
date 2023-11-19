@@ -23,11 +23,18 @@ class aream
 	public static void main(String arg[])
 	{
 		Scanner sc=new Scanner(System.in);
-		AreaCalc myRec=new AreaCalc();
-		AreaCalc mySq=new AreaCalc();
-		AreaCalc myCir=new AreaCalc();
+		Area myRec=new Area();
+		Area mySq=new Area();
+		Area myCir=new Area();
 		myRec.area(7,8);
 		mySq.area(5);
 		myCir.area(4);
 	}
 }
+/*
+OUTPUT
+
+Area of the rectangle is 56.0
+Area of the square is 25.0
+Area of the square is 16.0 
+ */

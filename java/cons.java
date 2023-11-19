@@ -39,3 +39,16 @@ class AreaCons
 		AreaCalc myCir=new AreaCalc(radius);
 	}
 }
+/*
+OUTPUT
+Enter the length and breadth of the rectangle
+5
+5
+Area of the rectangle is 25.0
+Enter the length of a square
+6
+Area of the square is 36.0
+enter the radius of the circle
+10
+Area of the circle is 314.0
+ */

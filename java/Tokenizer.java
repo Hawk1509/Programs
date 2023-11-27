@@ -1,13 +1,22 @@
 //program to read line of intergers and display each integer and sum of all integers
-import java util.*;
+import java.util.*;
 class Tokenizer
 {
 	public static void main(String [] args)
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter number of digits: ");
+		System.out.println("Enter String of digits: ");
 		String digit = sc.nextLine();
-		String Tokenizer token = new String Tokenizer
-		 
+		StringTokenizer token = new StringTokenizer(digit);
+		int dig = 0,sum = 0;
+		while(token.hasMoreTokens())
+		{
+			String s = token.nextToken();
+			dig = Integer.parseInt(s);
+			System.out.println(+dig);
+			sum+=dig;
+		}
+		System.out.println("The sum is: "+sum);
+		
 	}
 }

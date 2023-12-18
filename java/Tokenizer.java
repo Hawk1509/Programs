@@ -20,3 +20,14 @@ class Tokenizer
 		
 	}
 }
+/*OUTPUT
+Enter String of digits: 
+1 2 3 4 5 6
+1
+2
+3
+4
+5
+6
+The sum is: 21
+ */

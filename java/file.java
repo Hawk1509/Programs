@@ -38,3 +38,9 @@ class file
     }
  }
 }
+/*
+OUTPUT
+java.io.FileNotFoundException: t.txt (No such file or directory)
+Enter String to write
+hello world how are you?
+ */

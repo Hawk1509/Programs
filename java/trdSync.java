@@ -30,3 +30,10 @@ SyncThread t2 = new SyncThread(d,"New Year");
 t1.start();
 t2.start();
 }}
+/*
+OUTPUT
+[Happy
+]
+[New Year
+]
+ */

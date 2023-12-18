@@ -259,3 +259,135 @@ ch = scan.next().charAt(0);
 } while (ch == 'Y'|| ch == 'y');
 }
 }
+/*
+OUTPUT
+Doubly Linked List Test
+
+
+Doubly Linked List Operations
+
+1. insert at begining
+2. insert at end
+3. insert at position
+4. delete at position
+5. check empty
+6. get size
+1
+Enter integer element to insert
+10
+
+Doubly Linked List = 10
+
+Do you want to continue (Type y or n) 
+
+y
+
+Doubly Linked List Operations
+
+1. insert at begining
+2. insert at end
+3. insert at position
+4. delete at position
+5. check empty
+6. get size
+2
+Enter integer element to insert
+20
+
+Doubly Linked List = 10 <-> 20
+
+Do you want to continue (Type y or n) 
+
+y
+
+Doubly Linked List Operations
+
+1. insert at begining
+2. insert at end
+3. insert at position
+4. delete at position
+5. check empty
+6. get size
+2
+Enter integer element to insert
+30
+
+Doubly Linked List = 10 <-> 20 <-> 30
+
+Do you want to continue (Type y or n) 
+
+y
+
+Doubly Linked List Operations
+
+1. insert at begining
+2. insert at end
+3. insert at position
+4. delete at position
+5. check empty
+6. get size
+3
+Enter integer element to insert
+25
+Enter position
+3
+
+Doubly Linked List = 10 <-> 20 <-> 25 <-> 30
+
+Do you want to continue (Type y or n) 
+
+y
+
+Doubly Linked List Operations
+
+1. insert at begining
+2. insert at end
+3. insert at position
+4. delete at position
+5. check empty
+6. get size
+4
+Enter position
+1
+
+Doubly Linked List = 20 <-> 25 <-> 30
+
+Do you want to continue (Type y or n) 
+
+y
+
+Doubly Linked List Operations
+
+1. insert at begining
+2. insert at end
+3. insert at position
+4. delete at position
+5. check empty
+6. get size
+5
+Empty status = false
+
+Doubly Linked List = 20 <-> 25 <-> 30
+
+Do you want to continue (Type y or n) 
+
+y
+
+Doubly Linked List Operations
+
+1. insert at begining
+2. insert at end
+3. insert at position
+4. delete at position
+5. check empty
+6. get size
+6
+Size = 3 
+
+
+Doubly Linked List = 20 <-> 25 <-> 30
+
+Do you want to continue (Type y or n) 
+
+n
+ */
